@@ -34,8 +34,7 @@
   
     
   
-  <meta name="description" content="Context Let an initial-value problem be specified as follows:
-$$ y&#39;(t) = f(t, y),\qquad y(t_0) = y_0.\qquad (1) $$ Here $y \in \mathbb{R}^m$ is an unknown function of time $t$.">
+  <meta name="description" content="Context graph TD; A--&gt;B; A--&gt;C; B--&gt;D; C--&gt;D;  $$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |} {\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$">
 
   
   <link rel="alternate" hreflang="en-us" href="https://juliareach.github.io/post/rk4_taylorseries/">
@@ -243,7 +242,7 @@ $$ y&#39;(t) = f(t, y),\qquad y(t_0) = y_0.\qquad (1) $$ Here $y \in \mathbb{R}^
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.43d3c96e828e85b0b0be4980653cbf43.css">
+  <link rel="stylesheet" href="/css/wowchemy.7810b671f22070aedc3a626ea29c5e0f.css">
 
   
 
@@ -287,8 +286,7 @@ $$ y&#39;(t) = f(t, y),\qquad y(t_0) = y_0.\qquad (1) $$ Here $y \in \mathbb{R}^
   <meta property="og:site_name" content="JuliaReach">
   <meta property="og:url" content="https://juliareach.github.io/post/rk4_taylorseries/">
   <meta property="og:title" content="RK4_TaylorSeries | JuliaReach">
-  <meta property="og:description" content="Context Let an initial-value problem be specified as follows:
-$$ y&#39;(t) = f(t, y),\qquad y(t_0) = y_0.\qquad (1) $$ Here $y \in \mathbb{R}^m$ is an unknown function of time $t$."><meta property="og:image" content="https://juliareach.github.io/media/JuliaReach_ISOLOGO_vertical.jpg">
+  <meta property="og:description" content="Context graph TD; A--&gt;B; A--&gt;C; B--&gt;D; C--&gt;D;  $$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |} {\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$"><meta property="og:image" content="https://juliareach.github.io/media/JuliaReach_ISOLOGO_vertical.jpg">
   <meta property="twitter:image" content="https://juliareach.github.io/media/JuliaReach_ISOLOGO_vertical.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -338,7 +336,7 @@ $$ y&#39;(t) = f(t, y),\qquad y(t_0) = y_0.\qquad (1) $$ Here $y \in \mathbb{R}^
       "url": "https://juliareach.github.io/images/icon_hu8c773f605be31bd7247fcbfd1dac918c_46750_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Context Let an initial-value problem be specified as follows:\n$$ y'(t) = f(t, y),\\qquad y(t_0) = y_0.\\qquad (1) $$ Here $y \\in \\mathbb{R}^m$ is an unknown function of time $t$."
+  "description": "Context graph TD; A--\u0026gt;B; A--\u0026gt;C; B--\u0026gt;D; C--\u0026gt;D;  $$\\gamma_{n} = \\frac{ \\left | \\left (\\mathbf x_{n} - \\mathbf x_{n-1} \\right )^T \\left [\\nabla F (\\mathbf x_{n}) - \\nabla F (\\mathbf x_{n-1}) \\right ] \\right |} {\\left |\\nabla F(\\mathbf{x}_{n}) - \\nabla F(\\mathbf{x}_{n-1}) \\right |^2}$$"
 }
 </script>
 
@@ -812,6 +810,16 @@ $$ y&#39;(t) = f(t, y),\qquad y(t_0) = y_0.\qquad (1) $$ Here $y \in \mathbb{R}^
 
     <div class="article-style">
       <h2 id="context">Context</h2>
+<pre><code class="language-mermaid">graph TD;
+  A--&gt;B;
+  A--&gt;C;
+  B--&gt;D;
+  C--&gt;D;
+</code></pre>
+<p>$$\gamma_{n} = \frac{
+\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T
+\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
+{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$</p>
 <p>Let an initial-value problem be specified as follows:</p>
 <p>$$
 y'(t) = f(t, y),\qquad y(t_0) = y_0.\qquad (1)
@@ -835,7 +843,7 @@ end
     N = round(Int, (T - t₀) / h)
     t = Vector{Float64}(undef, N)
     y = Vector{typeof(y₀)}(undef, N)
-    y[1] = y₀; t[1] = t₀; 
+    y[1] = y₀; t[1] = t₀;
 
     for n in 1:N-1
         step!(f, y, n, t, h)
@@ -1303,6 +1311,10 @@ plot!(out[1:100], marker=:x, c=:red)
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/julia.min.js"></script>
         
       
 
