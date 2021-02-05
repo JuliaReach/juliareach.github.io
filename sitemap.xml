@@ -18,6 +18,16 @@
   </url>
   
   <url>
+    <loc>https://juliareach.github.io/post/</loc>
+    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliareach.github.io/post/rk4_taylorseries/</loc>
+    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc></loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
@@ -39,11 +49,6 @@
   
   <url>
     <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,17 +88,32 @@
   </url>
   
   <url>
+    <loc>https://juliareach.github.io/project/archcomp20_aff/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://juliareach.github.io/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/project/example/</loc>
+    <loc>https://juliareach.github.io/project/timetrigger/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliareach.github.io/tag/hybrid-systems/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://juliareach.github.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliareach.github.io/tag/reachability/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -120,6 +140,18 @@
   <url>
     <loc></loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+  </url>
+  
+  <url>
+    <loc></loc>
+  </url>
+  
+  <url>
+    <loc></loc>
   </url>
   
 </urlset>
