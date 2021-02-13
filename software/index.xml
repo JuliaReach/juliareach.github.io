@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Softwares | JuliaReach</title>
+    <link>https://juliareach.github.io/software/</link>
+      <atom:link href="https://juliareach.github.io/software/index.xml" rel="self" type="application/rss+xml" />
+    <description>Softwares</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 JuliaReach Developers</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://juliareach.github.io/media/JuliaReach_ISOLOGO_vertical.jpg</url>
+      <title>Softwares</title>
+      <link>https://juliareach.github.io/software/</link>
+    </image>
+    
+    <item>
+      <title>LazySets.</title>
+      <link>https://juliareach.github.io/software/lazysets/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/software/lazysets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReachabilityAnalysis.</title>
+      <link>https://juliareach.github.io/software/reachabilityanalysis/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/software/reachabilityanalysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
