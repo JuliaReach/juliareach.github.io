@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Periodic controller | JuliaReach</title>
+    <link>https://juliareach.github.io/tag/periodic-controller/</link>
+      <atom:link href="https://juliareach.github.io/tag/periodic-controller/index.xml" rel="self" type="application/rss+xml" />
+    <description>Periodic controller</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 JuliaReach Developers</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://juliareach.github.io/media/JuliaReach_ISOLOGO_vertical.jpg</url>
+      <title>Periodic controller</title>
+      <link>https://juliareach.github.io/tag/periodic-controller/</link>
+    </image>
+    
+    <item>
+      <title>Efficient reachability analysis of parametric linear hybrid systems with time-triggered transitions</title>
+      <link>https://juliareach.github.io/project/timetrigger/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/project/timetrigger/</guid>
+      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Efficient reachability analysis of parametric linear hybrid systems with time-triggered transitions.&lt;/strong&gt; Marcelo Forets, Daniel Freire, Christian Schilling, 2020. &lt;a href=&#34;https://arxiv.org/abs/2006.12325&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv: 2006.12325&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Presented in MEMOCODE&#39;20: &lt;a href=&#34;https://iitjammu.ac.in/conferences/memocode2020/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;18th ACM-IEEE International Conference on Formal Methods and Models for System Design
+&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Efficiently handling time-triggered and possibly nondeterministic switches for hybrid systems
+reachability is a challenging task. In this paper we focus on periodically controlled systems
+with fast-switching controller dynamics, which often require simulation time scales of the order
+of nanoseconds. Accurate set-based computations for such systems with relatively large time
+horizons are expensive due to the accumulation of errors in the discrete transitions.
+We present an approach based on conservative set-based enclosure of the dynamics that can handle systems
+with uncertain parameters and inputs. We demonstrate our algorithm on the plant model of an
+experimental electro-mechanical braking system with periodic controller.&lt;/p&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;p&gt;Timed systems play an important role in modeling and analyzing cyber-physical systems.
+In this work we consider a class of hybrid-automaton models with continuous dynamics and time-triggered discrete events following a periodic clock.
+We propose a reachability framework to compute an overapproximation of the states reachable by such systems.&lt;/p&gt;
+&lt;p&gt;Conventional techniques tightly integrate the computation of the continuous behavior and the discrete events.
+Our approach allows to separate these concerns for the model class considered here, which simplifies
+the analysis drastically in practice and allows us to plug in any reachability algorithm from the literature.&lt;/p&gt;
+&lt;p&gt;As a case study, we consider a parametric model of a cyber-physical system consisting of an experimental
+electro-mechanical brake and a software-implemented periodic controller.
+The model was originally described in earlier work by Strathmann and Oehlerking where the
+authors developed a simplified version of a nonlinear system.
+The model is representative of real challenges in the automotive industry and allows the application of formal methods during development.
+Computing the reachable states for this simplified model takes twelve hours using the previous
+approach, and less than a minute with our approach.&lt;/p&gt;
+&lt;p&gt;This paper makes the following original contributions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We present an efficient algorithm for deterministic periodic time-triggered hybrid systems with &lt;strong&gt;uncertain parameters&lt;/strong&gt; of the system dynamics or the initial conditions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We extend the algorithm to the more difficult and new scenario of &lt;strong&gt;nondeterministic periodic&lt;/strong&gt; discrete switches.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We demonstrate the &lt;strong&gt;efficiency&lt;/strong&gt; of our algorithm on a model of an electro-mechanical brake system.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Presentation slides (pdf) are available &lt;a href=&#34;https://github.com/JuliaReach/JuliaReach-website/tree/master/Talks/EMBrake_MEMOCODE20&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A short video for MEMOCODE&#39;20 is available &lt;a href=&#34;https://www.youtube.com/watch?v=n9ZNZmL1tlw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;@article{forets2020efficient,
+  title={Efficient reachability analysis of parametric linear hybrid systems with time-triggered transitions},
+  author={Forets, Marcelo and Freire, Daniel and Schilling, Christian},
+  journal={arXiv preprint arXiv:2006.12325},
+  year={2020}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

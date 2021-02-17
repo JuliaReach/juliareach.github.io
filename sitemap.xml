@@ -18,7 +18,27 @@
   </url>
   
   <url>
+    <loc></loc>
+    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://juliareach.github.io/post/</loc>
+    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliareach.github.io/tag/reachability/</loc>
+    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliareach.github.io/tags/</loc>
     <lastmod>2021-02-05T14:29:22-03:00</lastmod>
   </url>
   
@@ -28,53 +48,48 @@
   </url>
   
   <url>
-    <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/software/reachabilityanalysis/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/software/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/categories/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/software/lazysets/</loc>
+    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/project/timetrigger/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/tag/hybrid-systems/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/tag/periodic-controller/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/project/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/software/rangeenclosures/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/software/reachabilitymodels/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,89 +103,51 @@
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/project/archcomp20_aff/</loc>
+    <loc>https://juliareach.github.io/software/neuralnetworkanalysis/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliareach.github.io/software/mathematicalsystems/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/software/bernsteinexpansions/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/project/timetrigger/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/software/mathematicalpredicates/</loc>
+    <lastmod>2005-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/tag/hybrid-systems/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://juliareach.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/software/lazysets/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc></loc>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc></loc>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/tag/reachability/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc></loc>
   </url>
   
   <url>
-    <loc>https://juliareach.github.io/software/reachabilityanalysis/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/software/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/publication-type/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/publication/example/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc></loc>
   </url>
   
   <url>
     <loc>https://juliareach.github.io/publication_types/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://juliareach.github.io/publication/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-  </url>
-  
-  <url>
-    <loc></loc>
-  </url>
-  
-  <url>
-    <loc></loc>
-  </url>
-  
-  <url>
-    <loc></loc>
   </url>
   
   <url>

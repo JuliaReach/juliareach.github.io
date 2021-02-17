@@ -1,30 +1,78 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Softwares | JuliaReach</title>
+    <title>Software | JuliaReach</title>
     <link>https://juliareach.github.io/software/</link>
       <atom:link href="https://juliareach.github.io/software/index.xml" rel="self" type="application/rss+xml" />
-    <description>Softwares</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 JuliaReach Developers</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <description>Software</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 JuliaReach Developers</copyright><lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://juliareach.github.io/media/JuliaReach_ISOLOGO_vertical.jpg</url>
-      <title>Softwares</title>
+      <title>Software</title>
       <link>https://juliareach.github.io/software/</link>
     </image>
     
     <item>
-      <title>LazySets.</title>
+      <title>ReachabilityAnalysis.jl</title>
+      <link>https://juliareach.github.io/software/reachabilityanalysis/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/software/reachabilityanalysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LazySets.jl</title>
       <link>https://juliareach.github.io/software/lazysets/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://juliareach.github.io/software/lazysets/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ReachabilityAnalysis.</title>
-      <link>https://juliareach.github.io/software/reachabilityanalysis/</link>
+      <title>RangeEnclosures.jl</title>
+      <link>https://juliareach.github.io/software/rangeenclosures/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/software/rangeenclosures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReachabilityModels.jl</title>
+      <link>https://juliareach.github.io/software/reachabilitymodels/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/software/reachabilitymodels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NeuralNetworkAnalysis.jl</title>
+      <link>https://juliareach.github.io/software/neuralnetworkanalysis/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/software/neuralnetworkanalysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MathematicalSystems.jl</title>
+      <link>https://juliareach.github.io/software/mathematicalsystems/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/software/reachabilityanalysis/</guid>
+      <guid>https://juliareach.github.io/software/mathematicalsystems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BernsteinExpansions.jl</title>
+      <link>https://juliareach.github.io/software/bernsteinexpansions/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/software/bernsteinexpansions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MathematicalPredicates.jl</title>
+      <link>https://juliareach.github.io/software/mathematicalpredicates/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/software/mathematicalpredicates/</guid>
       <description></description>
     </item>
     
