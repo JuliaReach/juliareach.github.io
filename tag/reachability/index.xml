@@ -179,6 +179,115 @@ plot!(out[1:100], marker=:x, c=:red)
     </item>
     
     <item>
+      <title>ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics</title>
+      <link>https://juliareach.github.io/project/archcomp20_aff/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/project/archcomp20_aff/</guid>
+      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics.&lt;/strong&gt;
+Matthias Althoff, Stanley Bak, Zongnan Bao, Marcelo Forets, Daniel Freire, Goran Frehse, Niklas
+Kochdumper, Yangge Li, Sayan Mitra, Rajarshi Ray, Christian Schilling, Stefan Schupp, and Mark
+Wetzlinger (2020) ARCH20. 7th International Workshop on Applied Verification of Continuous and
+Hybrid Systems. 7th International Workshop on Applied Verification of Continuous and Hybrid Systems
+(ARCH20), vol 74, pages 16&amp;ndash;48. &lt;a href=&#34;https://easychair.org/publications/paper/DRpS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.29007/7dt2&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We present the results of the ARCH 2020
+(&lt;a href=&#34;http://cps-vo.org/group/ARCH&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Workshop on Applied Verification for Continuous and Hybrid Systems&lt;/a&gt; friendly
+competition for formal verification of continuous and hybrid systems with linear continuous dynamics.
+In its fourth edition, eight tools have been applied to solve eight different benchmark problems in the
+category for linear continuous dynamics (in alphabetical order): CORA, C2E2, HyDRA, Hylaa, Hylaa-Continuous,
+JuliaReach, SpaceEx, and XSpeed. This report is a snapshot of the current landscape of tools and the types of
+benchmarks they are particularly suited for. Due to the diversity of problems, we are not ranking tools,
+yet the presented results provide one of the most complete assessments of tools for the safety verification
+of continuous and hybrid systems with linear continuous dynamics up to this date.&lt;/p&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;p&gt;We consider the verification of hybrid systems (i.e., mixed discrete/continuous systems) with linear continuous dynamics
+$$
+\dot{x}(t) = Ax(t) + Bu(t),
+$$
+where $A \in \mathbb{R}^{n \times n}$, $x \in \mathbb{R}^n$, $B \in \mathbb{R}^{n \times m}$, and $u \in \mathbb{R}^m$. For all results reported by each participant, we have run an independent repeatability evaluation. To establish further trustworthiness of the results, the code with which the results have been obtained is publicly available &lt;a href=&#34;https://gitlab.com/goranf/ARCH-COMP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.
+The selection of the benchmarks has been conducted within the forum of the ARCH website
+(&lt;a href=&#34;http://cps-vo.org/group/ARCH&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;), which is visible for registered users and
+registration is open to anybody. All tools presented in this report use some form of
+reachability analysis. This, however, is not a constraint set by the organizers of the friendly competition. We hope to encourage further tool developers to showcase their results in future editions.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;@inproceedings{ARCH20:ARCH_COMP20_Category_Report_Continuous,
+  author    = {Matthias Althoff and Stanley Bak and Zongnan Bao and Marcelo Forets and Goran Frehse and Daniel Freire and Niklas Kochdumper and Yangge Li and Sayan Mitra and Rajarshi Ray and Christian Schilling and Stefan Schupp and Mark Wetzlinger},
+  title     = {ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics},
+  booktitle = {ARCH20. 7th International Workshop on Applied Verification of Continuous and Hybrid Systems (ARCH20)},
+  editor    = {Goran Frehse and Matthias Althoff},
+  series    = {EPiC Series in Computing},
+  volume    = {74},
+  pages     = {16--48},
+  year      = {2020},
+  publisher = {EasyChair},
+  bibsource = {EasyChair, https://easychair.org},
+  issn      = {2398-7340},
+  url       = {https://easychair.org/publications/paper/DRpS},
+  doi       = {10.29007/7dt2}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics</title>
+      <link>https://juliareach.github.io/project/archcomp20_nln/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/project/archcomp20_nln/</guid>
+      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics.&lt;/strong&gt; Luca Geretti, Julien Alexandre dit Sandretto, Matthias Althoff, Luis Benet, Alexandre Chapoutot, Xin Chen, Pieter Collins, Marcelo Forets, Daniel Freire, Fabian Immler, Niklas Kochdumper, David P. Sanders and Christian
+Schilling (2020) ARCH20. To appear in 7th International Workshop on Applied Verification of Continuous and Hybrid Systems. 7th International Workshop on Applied Verification of Continuous and Hybrid Systems (ARCH20), vol 74, pages 49&amp;ndash;75. &lt;a href=&#34;https://easychair.org/publications/paper/nrdD&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.29007/zkf6&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We present the results of a friendly competition for formal verification of continuous and hybrid
+systems with nonlinear continuous dynamics. The friendly competition took place as part of the
+workshop Applied Verification for Continuous and Hybrid Systems (ARCH) in 2020. This year, 6 tools
+Ariadne, CORA, DynIbex, Flow*, Isabelle/HOL, and JuliaReach (in alphabetic order) participated.
+These tools are applied to solve reachability analysis problems on six benchmark problems, two of them
+featuring hybrid dynamics. We do not rank the tools based on the results, but show the current status
+and discover the potential advantages of different tools.&lt;/p&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;p&gt;In this report, we summarize the results of the fourth ARCH friendly competition on the
+reachability analysis of continuous and hybrid systems with nonlinear dynamics. Given a system
+defined by a nonlinear Ordinary Differential Equation (ODE) $\dot{x} = f(x, t)$ along with an initial
+condition $x \in X_0$, we apply the participating tools to prove properties of the state reachable set
+in a bounded time horizon. The techniques for solving such a problem are usually very sensitive
+to not only the nonlinearity of the dynamics but also the size of the initial set. This is also one
+of the main reasons why most of the tools require quite a lot of computational parameters.
+In this report, 6 tools Ariadne, CORA, DynIbex, Flow*, Isabelle/HOL, and JuliaReach
+participated in solving problems defined on four continuous and two hybrid benchmarks. The
+continuous benchmarks are the Production-Destruction system, the Coupled Van der Pol os-
+cillator, the Laub-Loomis model, and a controlled Quadrotor model. The hybrid benchmarks
+model a Lotka-Volterra system with a Tangential Crossing, and a Space Rendezvous system.&lt;/p&gt;
+&lt;p&gt;For the 2020 edition of the competition we introduced two new benchmarks: the Production-
+Destruction system and the Lotka-Volterra system with tangential crossing. The former is a
+continuous system aimed at identifying the stability of integration schemes. The latter intro-
+duces nonlinear guards and in particular tangential crossings. In addition, we extended the van
+der Pol oscillator to two coupled oscillators, introduced nondeterministic crossing in the Space
+Rendezvous system and performed some input sensitivity analysis for the Quadrotor system.
+The Laub-Loomis benchmark was not modified, in order to perform a direct comparison with
+results from the previous year (since the participants are the same).&lt;/p&gt;
+&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;@inproceedings{ARCH20:ARCH_COMP20_Category_Report_Continuous,
+  author    = {Luca Geretti and Julien Alexandre Dit Sandretto and Matthias Althoff and Luis Benet and Alexandre Chapoutot and Xin Chen and Pieter Collins and Marcelo Forets and Daniel Freire and Fabian Immler and Niklas Kochdumper and David P. Sanders and Christian Schilling},
+  title     = {ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics},
+  booktitle = {ARCH20. 7th International Workshop on Applied Verification of Continuous and Hybrid Systems (ARCH20)},
+  editor    = {Goran Frehse and Matthias Althoff},
+  series    = {EPiC Series in Computing},
+  volume    = {74},
+  pages     = {49--75},
+  year      = {2020},
+  publisher = {EasyChair},
+  bibsource = {EasyChair, https://easychair.org},
+  issn      = {2398-7340},
+  url       = {https://easychair.org/publications/paper/nrdD},
+  doi       = {10.29007/zkf6}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Efficient reachability analysis of parametric linear hybrid systems with time-triggered transitions</title>
       <link>https://juliareach.github.io/project/timetrigger/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
