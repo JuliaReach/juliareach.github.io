@@ -5,12 +5,41 @@
     <link>https://juliareach.github.io/tag/hybrid-systems/</link>
       <atom:link href="https://juliareach.github.io/tag/hybrid-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>Hybrid systems</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 JuliaReach Developers</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 JuliaReach Developers</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://juliareach.github.io/media/JuliaReach_ISOLOGO_vertical.jpg</url>
       <title>Hybrid systems</title>
       <link>https://juliareach.github.io/tag/hybrid-systems/</link>
     </image>
+    
+    <item>
+      <title>Reachability analysis of linear hybrid systems via block decomposition</title>
+      <link>https://juliareach.github.io/project/decohybrid/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/project/decohybrid/</guid>
+      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Reachability analysis aims at identifying states reachable by a system within a given time horizon. This task is known to be computationally expensive for linear hybrid systems. Reachability analysis works by iteratively applying continuous and discrete post operators to compute states reachable according to continuous and discrete dynamics, respectively. In this article, we enhance both of these operators and make sure that most of the involved computations are performed in low-dimensional state space. In particular, we improve the continuous-post operator by performing computations in high-dimensional state space only for time intervals relevant for the subsequent application of the discrete-post operator. Furthermore, the new discrete-post operator performs low-dimensional computations by leveraging the structure of the guard and assignment of a considered transition. We illustrate the potential of our approach on a number of challenging benchmarks.&lt;/p&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Presentation slides (pdf) are available &lt;a href=&#34;https://github.com/JuliaReach/JuliaReach-website/blob/master/Talks/DecoHybrid_EMSOFT20/DecoHybrid_EMSOFT20.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The recording for EMSOFT&#39;20 is available &lt;a href=&#34;https://www.youtube.com/watch?v=JVDRaHnSfEQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;@article{forets2020efficient,
+  title={Efficient reachability analysis of parametric linear hybrid systems with time-triggered transitions},
+  author={Forets, Marcelo and Freire, Daniel and Schilling, Christian},
+  journal={arXiv preprint arXiv:2006.12325},
+  year={2020}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Efficient reachability analysis of parametric linear hybrid systems with time-triggered transitions</title>
@@ -71,6 +100,110 @@ approach, and less than a minute with our approach.&lt;/p&gt;
   author={Forets, Marcelo and Freire, Daniel and Schilling, Christian},
   journal={arXiv preprint arXiv:2006.12325},
   year={2020}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JuliaReach: a Toolbox for Set-Based Reachability</title>
+      <link>https://juliareach.github.io/project/juliareachtoolbox/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/project/juliareachtoolbox/</guid>
+      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;JuliaReach: a Toolbox for Set-Based Reachability.&lt;/strong&gt; Sergiy Bogomolov, Marcelo Forets, Goran Frehse, Kostiantyn Potomkin, Christian Schilling. Published in Proceedings of &lt;a href=&#34;http://hscc2019.eecs.umich.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HSCC&#39;19&lt;/a&gt;: 22nd ACM International Conference on Hybrid Systems: Computation and Control (HSCC&#39;19), see &lt;a href=&#34;https://dl.acm.org/citation.cfm?id=3311804&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACM link here&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/1901.10736&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Get pdf from arXiv: 1901.10736&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We present JuliaReach, a toolbox for set-based
+reachability analysis of dynamical systems.
+JuliaReach consists of two main packages: Reachability, containing implementations
+of reachability algorithms for continuous
+and hybrid systems, and LazySets, a
+standalone library that implements
+state-of-the-art algorithms for calculus
+with convex sets. The library offers both
+concrete and lazy set representations, where
+the latter stands for the ability to delay
+set computations until they are needed. The
+choice of the programming language Julia and
+the accompanying documentation of our
+toolbox allow researchers to easily translate
+set-based algorithms from mathematics to
+software in a platform-independent way,
+while achieving runtime performance that
+is comparable to statically compiled languages.
+Combining lazy operations in high dimensions
+and explicit computations in low dimensions,
+JuliaReach can be applied to solve complex,
+large-scale problems.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;@inproceedings{bogomolov2019juliareach,
+  title={JuliaReach: a toolbox for set-based reachability},
+  author={Bogomolov, Sergiy and Forets, Marcelo and Frehse, Goran and Potomkin, Kostiantyn and Schilling, Christian},
+  booktitle={Proceedings of the 22nd ACM International Conference on Hybrid Systems: Computation and Control},
+  pages={39--44},
+  year={2019}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reach Set Approximation through Decomposition with Low-dimensional Sets and High-dimensional Matrices</title>
+      <link>https://juliareach.github.io/project/bffpsv18/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/project/bffpsv18/</guid>
+      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Reach Set Approximation through Decomposition with Low-dimensional Sets and High-dimensional Matrices.&lt;/strong&gt; Sergiy Bogomolov, Marcelo Forets, Goran Frehse, Frédéric Viry, Andreas Podelski and Christian Schilling (2018) &lt;a href=&#34;https://www.hscc2018.deib.polimi.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HSCC&#39;18&lt;/a&gt; Proceedings of the 21st International Conference on Hybrid Systems: Computation and Control: 41–50. See the &lt;a href=&#34;http://dx.doi.org/10.1145/3178126.3178128&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACM Digital Library link&lt;/a&gt;, or the &lt;a href=&#34;https://arxiv.org/abs/1801.09526&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv: 1801.09526&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Approximating the set of reachable states of a dynamical system is an
+algorithmic yet mathematically rigorous way to reason about its safety.
+Although progress has been made in the development of efficient algorithms
+for affine dynamical systems, available algorithms still lack scalability
+to ensure their wide adoption in the industrial setting. While modern
+linear algebra packages are efficient for matrices with tens of thousands
+of dimensions, set-based image computations are limited to a few hundred.
+We propose to decompose reach set computations such that set operations
+are performed in low dimensions, while matrix operations like exponentiation
+are carried out in the full dimension. Our method is applicable both in dense
+and discrete-time settings. For a set of standard benchmarks, it shows a
+speed-up of up to two orders of magnitude compared to the respective
+state-of-the-art tools, with only modest losses in accuracy.
+For the dense-time case, we show an experiment with more than 10,000
+variables, roughly two orders of magnitude higher than possible with previous
+approaches.&lt;/p&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;p&gt;We present a new method to solve the reachability
+problem for affine dynamical systems with nondeterministic inputs
+and experimentally show that it is highly scalable under modest
+loss of accuracy.&lt;/p&gt;
+&lt;p&gt;More precisely:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We provide a new decomposition approach to solve the set-based recurrence:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+\mathcal{X}(k+1) = \Phi \mathcal{X}(k) \oplus \mathcal{V}(k),\qquad k = 0, 1,\ldots, N
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We analyze the approximation error.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We address both the dense time and the discrete time reach-
+ability problem for general linear time-invariant systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We implement our approach efficiently and demonstrate its
+scalability on real engineering benchmarks. The tool, source
+code, and benchmark scripts are publicly available.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;@inproceedings{bogomolov2018reach,
+  title={Reach set approximation through decomposition with low-dimensional sets and high-dimensional matrices},
+  author={Bogomolov, Sergiy and Forets, Marcelo and Frehse, Goran and Viry, Fr{\&#39;e}d{\&#39;e}ric and Podelski, Andreas and Schilling, Christian},
+  booktitle={Proceedings of the 21st International Conference on Hybrid Systems: Computation and Control (part of CPS Week)},
+  pages={41--50},
+  year={2018}
 }
 &lt;/code&gt;&lt;/pre&gt;
 </description>

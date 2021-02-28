@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operations research | JuliaReach</title>
+    <link>https://juliareach.github.io/tag/operations-research/</link>
+      <atom:link href="https://juliareach.github.io/tag/operations-research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Operations research</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 JuliaReach Developers</copyright><lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://juliareach.github.io/media/JuliaReach_ISOLOGO_vertical.jpg</url>
+      <title>Operations research</title>
+      <link>https://juliareach.github.io/tag/operations-research/</link>
+    </image>
+    
+    <item>
+      <title>Case Study: Reachability and Scalability in a Unified Combat-Command-and-Control Model</title>
+      <link>https://juliareach.github.io/project/ccc/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/project/ccc/</guid>
+      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Case Study: Reachability Analysis of a unified Combat-Command-and-Control Model.&lt;/strong&gt; Sergiy Bogomolov, Marcelo Forets, Kostiantyn Potomkin. &lt;em&gt;International Conference on Reachability Problems (2020). Lecture Notes in Computer Science, vol 12448.&lt;/em&gt; (2020) doi: &lt;a href=&#34;https://dx.doi.org/10.1007/978-3-030-61739-4_4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.1007/978-3-030-61739-4_4&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Presented in the &lt;a href=&#34;https://www.irif.fr/~rp2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;14th International Conference on Reachability Problems 2020&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Reachability analysis computes an envelope encompassing the reachable states of a
+hybrid automaton within a given time horizon. It is known to be a computationally
+intensive task. In this case study paper, we consider the application of reachability
+analysis on a mathematical model unifying two key warfighting functions: Combat,
+and Commandand-Control (C2). Reachability here has a meaning of whether, given a
+range of initial combat forces and a C2 network and various uncertainties,
+one side can survive combat with intact forces while the adversary
+is diminished to zero. These are questions which arise in military Operations
+Research (OR). This paper is the first to utilize the notions of a
+hybrid automaton and reachability analysis in the area of OR. We explore the
+applicability and scalability of Taylor-model based reachability techniques in this domain.
+Our experiments demonstrate the potential of reachability analysis in the context of OR.&lt;/p&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;p&gt;We have explored the feasibility of applying some state-of-the-art reachability tools on
+a mathematical model unifying the dynamics of combat and C2.
+Operations Research is a domain where the advantages of using reachability analysis
+are yet to be discovered, and our contribution is a first step towards that direction.
+The unified combat model considered appears to be a challenging case
+study model, and although current verification techniques demonstrate capabilities to verify the systems up to the necessary time horizon of the model, there are still relevant configurations where reachability tools fail to verify the system.
+In particular, we investigated the method based on Taylor models in Flow*
+and JuliaReach for cases where the C2 takes place on networks of size N = 3, 5
+and 10. Given a certain uncertainty on initial conditions for Blue and Red combat forces we were able to derive reach-tubes for the subsequent time-evolution, bounding the behaviours of both forces and determining whether one side or
+the other is guaranteed success in the combat outcome.&lt;/p&gt;
+&lt;p&gt;In conclusion, the approach with adaptive time step (JuliaReach) has shown the best scalability. We
+emphasise that here we examined reachability within the constraint that the
+reach-tubes should cover all possible behaviors of the system’s evolution. However, we anticipate that significant scaling benefits may be achieved by relaxing this condition, thus testing that certain states may be reached while allowing for
+a degree of approximation.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;@inproceedings{bogomolov2020case,
+  title={Case Study: Reachability and Scalability in a Unified Combat-Command-and-Control Model},
+  author={Bogomolov, Sergiy and Forets, Marcelo and Potomkin, Kostiantyn},
+  booktitle={International Conference on Reachability Problems},
+  pages={52--66},
+  year={2020},
+  organization={Springer}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,44 @@
     <link>https://juliareach.github.io/tag/arch-comp/</link>
       <atom:link href="https://juliareach.github.io/tag/arch-comp/index.xml" rel="self" type="application/rss+xml" />
     <description>ARCH-COMP</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 JuliaReach Developers</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 JuliaReach Developers</copyright><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://juliareach.github.io/media/JuliaReach_ISOLOGO_vertical.jpg</url>
       <title>ARCH-COMP</title>
       <link>https://juliareach.github.io/tag/arch-comp/</link>
     </image>
+    
+    <item>
+      <title>Best Result Award: Applied Verification for Continuous and Hybrid Systems 2020</title>
+      <link>https://juliareach.github.io/post/archcomp20_prize/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/post/archcomp20_prize/</guid>
+      <description>&lt;h2 id=&#34;prize-announcement&#34;&gt;Prize announcement&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://cps-vo.org/node/69589&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ARCH 2020 Best Result Award&lt;/a&gt; goes to Luis Benet, Marcelo Forets, Daniel Freire, David P. Sanders, and Christian Schilling (in alphabetical order) for their verification tool JuliaReach. The award comes with a 500 Euro prize. Congratulations!&lt;/p&gt;
+&lt;h2 id=&#34;resolution&#34;&gt;Resolution&lt;/h2&gt;
+&lt;p&gt;We will give the prize to Sebastian (&lt;code&gt;@sebastianguadalupe&lt;/code&gt;), a Uruguayan
+undergraduate student who collabored with us on the Julia Seasons of Contributions 2020 edition.&lt;/p&gt;
+&lt;p&gt;Sebastian will work on zonotope-based methods applied to hybrid systems.
+He will be writing a tool for reachability analysis of neural-network controlled systems
+to leverage on the JuliaReach ecosystem and &lt;a href=&#34;https://github.com/sisl/NeuralVerification.jl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sisl/NeuralVerification.jl&lt;/a&gt;
+from the Stanford Intelligent Systems Laboratory library.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ARCH-COMP19 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics</title>
+      <link>https://juliareach.github.io/project/archcomp19_aff/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/project/archcomp19_aff/</guid>
+      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ARCH-COMP19 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics.&lt;/strong&gt; Matthias Althoff, Stanley Bak, Marcelo Forets, Goran Frehse, Niklas Kochdumper, Rajarshi Ray, Christian Schilling and Stefan Schupp (2019) ARCH19. 6th International Workshop on Applied Verification of Continuous and Hybrid Systems, vol 61, pages 14&amp;ndash;40 &lt;a href=&#34;https://easychair.org/publications/paper/1gbP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doi: 10.29007/bj1w&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics</title>
@@ -117,6 +149,93 @@ results from the previous year (since the participants are the same).&lt;/p&gt;
   url       = {https://easychair.org/publications/paper/nrdD},
   doi       = {10.29007/zkf6}
 }
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ARCH-COMP19 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics</title>
+      <link>https://juliareach.github.io/project/archcomp19_nln/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/project/archcomp19_nln/</guid>
+      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ARCH-COMP19 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics.&lt;/strong&gt;
+Fabian Immler, Matthias Althoff, Luis Benet,
+Alexandre Chapoutot, Xin Chen, Marcelo Forets,
+Luca Geretti, Niklas Kochdumper,
+David P. Sanders and Christian Schilling (2019)
+ARCH19. 6th International Workshop on Applied
+Verification of Continuous and Hybrid Systems,
+vol 61, pages 41&amp;ndash;61
+&lt;a href=&#34;https://easychair.org/publications/paper/1gbP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doi: 10.29007/bj1w&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ARCH-COMP18 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics</title>
+      <link>https://juliareach.github.io/project/archcomp18_aff/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/project/archcomp18_aff/</guid>
+      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ARCH-COMP18 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics.&lt;/strong&gt;
+Matthias Althoff, Stanley Bak, Xin Chen, Chuchu Fan, Marcelo Forets, Goran Frehse,
+Niklas Kochdumper, Yangge Li, Sayan Mitra, Rajarshi Ray, Christian Schilling and Stefan Schupp (2018) ARCH18.
+5th International Workshop on Applied Verification of Continuous and Hybrid Systems, 54: 23–52.
+doi: &lt;a href=&#34;https://dx.doi.org/10.29007/73mb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.29007/73mb&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This report presents the results of a friendly competition for formal verification of continuous
+and hybrid systems with linear continuous dynamics. The friendly competition took place as part
+of the workshop Applied Verification for Continuous and Hybrid Systems (ARCH) in 2018.
+In its second edition, 9 tools have been applied to solve six different benchmark problems
+in the category for linear continuous dynamics (in alphabetical order): CORA, CORA/SX, C2E2,
+Flow*, HyDRA, Hylaa, Hylaa-Continuous, JuliaReach, SpaceEx, and XSpeed.
+This report is a snapshot of the current landscape of tools and the types of benchmarks
+they are particularly suited for. Due to the diversity of problems, we are not ranking tools,
+yet the presented results probably provide the most complete assessment of tools for
+the safety verification of continuous and hybrid systems with linear continuous dynamics up to this date.&lt;/p&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;p&gt;This report summarizes results obtained in the 2018 friendly competition of the ARCH
+workshop for verifying hybrid systems with linear continuous dynamics
+$$
+\dot{x}(t) = Ax(t) + Bu(t),
+$$
+where $A \in \mathbb{R}^{n \times n}$, $x \in \mathbb{R}^n$, $B \in \mathbb{R}^{n \times m}$, and $u \in \mathbb{R}^m$.
+Participating tools are summarized in
+Sec. 2. The results of our selected benchmark problems are shown in Sec. 3 and are obtained
+on the tool developers’ own machines. Thus, one has to factor in the computational power of
+the processors used, summarized in Appendix A, as well as the efficiency of the programming
+language of the tools.
+The goal of the friendly competition is not to rank the results, but rather to present the
+landscape of existing solutions in a breadth that is not possible with scientific publications in
+classical venues. Such publications would typically require the presentation of novel techniques,
+while this report showcases the current state-of-the-art tools. For all results reported by each
+participant, we have run an independent repeatability evaluation.
+The selection of the benchmarks has been conducted within the forum of the ARCH website
+(&lt;a href=&#34;cps-vo.org/group/ARCH&#34;&gt;cps-vo.org/group/ARCH&lt;/a&gt;), which is visible for registered users
+and registration is open for anybody. All tools presented in this report use some form
+of reachability analysis. This, however, is not a constraint set by the organizers of
+the friendly competition. We hope to encourage further tool developers to showcase
+their results in future editions.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;@inproceedings{ARCH18:ARCH_COMP18_Category_Report_Continuous,
+  author    = {Matthias Althoff and Stanley Bak and Xin Chen and Chuchu Fan and Marcelo Forets and Goran Frehse and Niklas Kochdumper and Yangge Li and Sayan Mitra and Rajarshi Ray and Christian Schilling and Stefan Schupp},
+  title     = {ARCH-COMP18 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics},
+  booktitle = {ARCH18. 5th International Workshop on Applied Verification of Continuous and Hybrid Systems},
+  editor    = {Goran Frehse},
+  series    = {EPiC Series in Computing},
+  volume    = {54},
+  pages     = {23--52},
+  year      = {2018},
+  publisher = {EasyChair},
+  bibsource = {EasyChair, https://easychair.org},
+  issn      = {2398-7340},
+  url       = {https://easychair.org/publications/paper/4cGr},
+  doi       = {10.29007/73mb}}
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>

@@ -178,5 +178,22 @@ plot!(out[1:100], marker=:x, c=:red)
 </description>
     </item>
     
+    <item>
+      <title>Best Result Award: Applied Verification for Continuous and Hybrid Systems 2020</title>
+      <link>https://juliareach.github.io/post/archcomp20_prize/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://juliareach.github.io/post/archcomp20_prize/</guid>
+      <description>&lt;h2 id=&#34;prize-announcement&#34;&gt;Prize announcement&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://cps-vo.org/node/69589&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ARCH 2020 Best Result Award&lt;/a&gt; goes to Luis Benet, Marcelo Forets, Daniel Freire, David P. Sanders, and Christian Schilling (in alphabetical order) for their verification tool JuliaReach. The award comes with a 500 Euro prize. Congratulations!&lt;/p&gt;
+&lt;h2 id=&#34;resolution&#34;&gt;Resolution&lt;/h2&gt;
+&lt;p&gt;We will give the prize to Sebastian (&lt;code&gt;@sebastianguadalupe&lt;/code&gt;), a Uruguayan
+undergraduate student who collabored with us on the Julia Seasons of Contributions 2020 edition.&lt;/p&gt;
+&lt;p&gt;Sebastian will work on zonotope-based methods applied to hybrid systems.
+He will be writing a tool for reachability analysis of neural-network controlled systems
+to leverage on the JuliaReach ecosystem and &lt;a href=&#34;https://github.com/sisl/NeuralVerification.jl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sisl/NeuralVerification.jl&lt;/a&gt;
+from the Stanford Intelligent Systems Laboratory library.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
