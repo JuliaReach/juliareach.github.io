@@ -1,236 +1,157 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc></loc>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-  </url>
-  
-  <url>
-    <loc></loc>
-  </url>
-  
-  <url>
-    <loc></loc>
-  </url>
-  
-  <url>
-    <loc></loc>
-  </url>
-  
-  <url>
-    <loc></loc>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/talk/example-talk/</loc>
+    <loc>http://localhost:1313/event/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/post/get-started/</loc>
+    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/academic/</loc>
+    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo-blox/</loc>
+    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/markdown/</loc>
+    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/project/pandas/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/project/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/project/pytorch/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/project/scikit/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/second-brain/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/wowchemy/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/post/second-brain/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/post/data-visualization/</loc>
+    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/post/teach-courses/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/experience/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo-blox-builder/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/javascript/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/teaching/js/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/teaching/python/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/teaching/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/post/project-management/</loc>
+    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication/preprint/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication_types/article/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/large-language-models/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication_types/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication/journal-article/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication_types/article-journal/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/source-themes/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication/conference-paper/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication_types/paper-conference/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/post/</loc>
-    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/tag/reachability/</loc>
-    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/tags/</loc>
-    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/post/rk4_taylorseries/</loc>
-    <lastmod>2021-02-05T14:29:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/software/reachabilityanalysis/</loc>
-    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/software/</loc>
-    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/software/lazysets/</loc>
-    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/tag/arch-comp/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/post/archcomp20_prize/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/tag/decomposition/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/tag/hybrid-systems/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/project/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/project/decohybrid/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/project/ccc/</loc>
-    <lastmod>2020-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/tag/hybrid-automata/</loc>
-    <lastmod>2020-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/tag/operations-research/</loc>
-    <lastmod>2020-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/tag/reachability-analysis/</loc>
-    <lastmod>2020-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/project/archcomp19_aff/</loc>
-    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/project/archcomp20_aff/</loc>
-    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/project/archcomp20_nln/</loc>
-    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/project/timetrigger/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/tag/periodic-controller/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/software/rangeenclosures/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/software/reachabilitymodels/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/project/archcomp19_nln/</loc>
-    <lastmod>2019-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/project/juliareachtoolbox/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/software/neuralnetworkanalysis/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/project/archcomp18_aff/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/project/bffpsv18/</loc>
-    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/software/mathematicalsystems/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/software/bernsteinexpansions/</loc>
-    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/software/mathematicalpredicates/</loc>
-    <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://juliareach.github.io/publication/</loc>
-  </url>
-  
 </urlset>

@@ -1,868 +1,1023 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JuliaReach</title>
-    <link>https://juliareach.github.io/</link>
-      <atom:link href="https://juliareach.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>JuliaReach</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 JuliaReach Developers</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <title>Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hugo Academic CV Theme</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://juliareach.github.io/media/JuliaReach_ISOLOGO_vertical.jpg</url>
-      <title>JuliaReach</title>
-      <link>https://juliareach.github.io/</link>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Hugo Academic CV Theme</title>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://juliareach.github.io/talk/example-talk/</link>
+      <link>http://localhost:1313/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/talk/example-talk/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
+      <guid>http://localhost:1313/event/example/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/span&gt;
 &lt;/div&gt;
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Hugo Blox Builder&amp;rsquo;s 
+ feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+&lt;p&gt;Further event details, including 
+ such as image galleries, can be added to the body of this page.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Taylor expanding ODE solutions</title>
-      <link>https://juliareach.github.io/post/rk4_taylorseries/</link>
-      <pubDate>Fri, 05 Feb 2021 14:29:22 -0300</pubDate>
-      <guid>https://juliareach.github.io/post/rk4_taylorseries/</guid>
-      <description>&lt;p&gt;&amp;laquo; WORK-IN-PROGRESS&amp;raquo;&lt;/p&gt;
-&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
-&lt;p&gt;Let an initial-value problem be specified as follows:&lt;/p&gt;
-&lt;p&gt;$$
-y&#39;(t) = f(t, y),\qquad y(t_0) = y_0.\qquad (1)
-$$
-Here $y \in \mathbb{R}^m$ is an unknown function of time $t$.&lt;/p&gt;
-&lt;p&gt;We will consider a naive Julia implementation of the famous fourth-order explicit &lt;a href=&#34;https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Runge-Kutta integration method&lt;/a&gt;. The idea is to use such method to solve (1) for the case when $y_0$ is defined symbolically in the sense that we replace $y_0$ by $y_0 + \xi$ where $\xi$ is a vector of $m$ &amp;ldquo;symbols&amp;rdquo;. We would like to evaluate how does the classic RK4 method propagate the $\xi$ and see what information can be extracted from such expansion.&lt;/p&gt;
-&lt;p&gt;In this method, given a step size $h &amp;gt; 0$ we compute for each $n = 0, 1, 2, \ldots, N$ a sequence $y_1, y_2, \ldots, y_N$ using an explicit scheme of the form $y_{n+1} = y_n + h \sum_{i=1}^s b_i k_i$, where the $k_i$ are obtained by evaluating $f(t, y)$ on intermediate points. In the case of RK4 one step of the algorithm is obtained with the following &lt;code&gt;step&lt;/code&gt; function.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;function step!(f, y, n, t, h)
-    k₁ = f(t[n], y[n])
-    k₂ = f(t[n] + h/2, y[n] + h*k₁/2)
-    k₃ = f(t[n] + h/2, y[n] + h*k₂/2)
-    k₄ = f(t[n] + h, y[n] + h*k₃)
-
-    y[n+1] = y[n] + (h/6) * (k₁ + 2k₂ + 2k₃ + k₄)
-    t[n+1] = t[n] + h
-end
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;step! (generic function with 1 method)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;function solve(f, h, t₀, T, y₀)
-    N = round(Int, (T - t₀) / h)
-    t = Vector{Float64}(undef, N)
-    y = Vector{typeof(y₀)}(undef, N)
-    y[1] = y₀; t[1] = t₀;
-
-    for n in 1:N-1
-        step!(f, y, n, t, h)
-    end
-    y, t
-end
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;solve (generic function with 1 method)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;Consider the quadratic ODE&lt;/p&gt;
-&lt;p&gt;$$
-y&#39;(t) = 1 - y^2,\qquad y(t_0) = 0,~~ t \in [0, 10].
-$$&lt;/p&gt;
-&lt;p&gt;We consider a step size $h = 0.01$.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;f_quad(t, y) = 1 - y^2
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;f_quad (generic function with 1 method)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;r, t = solve(f_quad, 0.01, 0.0, 10.0, 0.0);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;using Plots
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;plot(t, r, seriestype=:line, lab=&amp;quot;&amp;quot;, xlab=&amp;quot;t&amp;quot;, ylab=&amp;quot;y(t)&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;output_12_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Now suppose that we solve the recurrence with an initial state $u_0 + \xi$.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;using TaylorSeries
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;ξ = Taylor1(20)
-set_taylor1_varname(&amp;quot;ξ&amp;quot;)
-u0 = 0.0
-u0ξ = u0 + ξ
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt; 1.0 ξ + 𝒪(ξ²¹)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;y, t = solve(f_quad, 0.01, 0.0, 10.0, u0ξ);
-
-length(y)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;1000
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;y[1]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt; 1.0 ξ + 𝒪(ξ²¹)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;y[2]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt; 0.009999666679166094 + 0.99990000666625 ξ - 0.009998666787493126 ξ² + 9.998333499990624e-5 ξ³ - 9.997958521864687e-7 ξ⁴ + 9.997916857282813e-9 ξ⁵ - 9.581395992702446e-11 ξ⁶ + 8.331729276038803e-13 ξ⁷ - 6.821796933983367e-15 ξ⁸ + 4.8430989824216484e-17 ξ⁹ - 2.968450528059874e-19 ξ¹⁰ + 1.5103098972005213e-21 ξ¹¹ - 6.119511719889326e-24 ξ¹² + 1.9530794270833342e-26 ξ¹³ - 4.557259114583335e-29 ξ¹⁴ + 6.510416666666671e-32 ξ¹⁵ - 4.069010416666671e-35 ξ¹⁶ + 𝒪(ξ²¹)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;y[3]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt; 0.019997333758263312 + 0.9996001066422828 ξ - 0.019989336973987328 ξ² + 0.0003997334431869484 ξ³ - 7.993594720222507e-6 ξ⁴ + 1.5985124640472037e-7 ξ⁵ - 3.1883090638671063e-9 ξ⁶ + 6.325950825886493e-11 ξ⁷ - 1.2462287616432512e-12 ξ⁸ + 2.4312653056785857e-14 ξ⁹ - 4.687998642014969e-16 ξ¹⁰ + 8.919632391826903e-18 ξ¹¹ - 1.672458814319322e-19 ξ¹² + 3.08748726849809e-21 ξ¹³ - 5.608112595223544e-23 ξ¹⁴ + 1.0018858671317283e-24 ξ¹⁵ - 1.7600522287738262e-26 ξ¹⁶ + 3.040358425374431e-28 ξ¹⁷ - 5.164849498520435e-30 ξ¹⁸ + 8.629961159714198e-32 ξ¹⁹ - 1.4187146313423383e-33 ξ²⁰ + 𝒪(ξ²¹)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;y[4]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt; 0.029991003236316215 + 0.9991005397242128 ξ - 0.02996402754525644 ξ² + 0.000898651247751589 ξ³ - 2.6951439926918567e-5 ξ⁴ + 8.083018387635607e-7 ξ⁵ - 2.4229420975103902e-8 ξ⁶ + 7.255492265663734e-10 ξ⁷ - 2.169261345744115e-11 ξ⁸ + 6.471370059589956e-13 ξ⁹ - 1.9250541717144024e-14 ξ¹⁰ + 5.706694617811968e-16 ξ¹¹ - 1.6849037837381005e-17 ξ¹² + 4.952171150219145e-19 ξ¹³ - 1.4482976068740724e-20 ξ¹⁴ + 4.213120613390775e-22 ξ¹⁵ - 1.2187249982451306e-23 ξ¹⁶ + 3.504794249260267e-25 ξ¹⁷ - 1.0018397840714965e-26 ξ¹⁸ + 2.846156443714574e-28 ξ¹⁹ - 8.035424335081523e-30 ξ²⁰ + 𝒪(ξ²¹)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;y[5]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt; 0.03997868030782012 + 0.9984017051196238 ξ - 0.03991478262103181 ξ² + 0.0015957403355221493 ξ³ - 6.379557597746384e-5 ξ⁴ + 2.550464580022681e-6 ξ⁵ - 1.0194784965344293e-7 ξ⁶ + 4.073770468253297e-9 ξ⁷ - 1.6270188569216327e-10 ξ⁸ + 6.4933229278608814e-12 ξ⁹ - 2.588889266950159e-13 ξ¹⁰ + 1.0309124077397989e-14 ξ¹¹ - 4.099036112193993e-16 ξ¹² + 1.6269963041530542e-17 ξ¹³ - 6.445181115936467e-19 ξ¹⁴ + 2.5476149615176444e-20 ξ¹⁵ - 1.0046100402336236e-21 ξ¹⁶ + 3.9513947849926016e-23 ξ¹⁷ - 1.549979598640151e-24 ξ¹⁸ + 6.062710831558582e-26 ξ¹⁹ - 2.3644194573304648e-27 ξ²⁰ + 𝒪(ξ²¹)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The result is a sequence of polynomials in $\xi$. However such characterization is only useful for small deviations with respect to the initial state &amp;ndash; and we haven&amp;rsquo;t yet characterized the error of the approximation. For example, suppose that we are interested in $y(t = 1)$:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;t[100]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;0.9900000000000007
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;y[100]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt; 0.7573623240820949 + 0.4264023097949346 ξ - 0.3229410443236415 ξ² + 0.24458338018660747 ξ³ - 0.1852382373895675 ξ⁴ + 0.14029246208258747 ξ⁵ - 0.10625222517422822 ξ⁶ + 0.08047143220209468 ξ⁷ - 0.06094603090212832 ξ⁸ + 0.046158227586616425 ξ⁹ - 0.03495850249638864 ξ¹⁰ + 0.026476252672553414 ξ¹¹ - 0.02005211623341677 ξ¹² + 0.015186717331102878 ξ¹³ - 0.01150184751249755 ξ¹⁴ + 0.008711065944387024 ξ¹⁵ - 0.006597433131544507 ξ¹⁶ + 0.004996647273657277 ξ¹⁷ - 0.003784272377387678 ξ¹⁸ + 0.0028660653096264452 ξ¹⁹ - 0.0021706498720577556 ξ²⁰ + 𝒪(ξ²¹)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;We can evaluate this result at $\xi = 0$:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;evaluate(y[100], 0.0)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;0.7573623240820949
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;At a value $\xi = 0.1$&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;evaluate(y[100], 0.1)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;0.7970005083277867
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And also an interval:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;using IntervalArithmetic
-
-evaluate(y[100], -0.1 .. 0.1)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;[0.711228, 0.800249]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;flowpipe&#34;&gt;Flowpipe&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;using ReachabilityAnalysis
-const RA = ReachabilityAnalysis
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;ReachabilityAnalysis
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;@taylorize function _f_quad(du, u, p, t)
-    du[1] = 1 - u[1]^2
-end
-prob = @ivp(x&#39; = _f_quad(x), dim=1, x(0) ∈ -0.1 .. 0.1);
-sol = RA.solve(prob, tspan=(0.0, 10.0), alg=TMJets(abs_tol=1e-12));
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;plot(sol, vars=(0, 1), alpha=.2)
-plot!(t, r, seriestype=:line, lab=&amp;quot;&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;output_34_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;R = sol(1.0)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;TaylorModelReachSet{Float64}(TaylorModels.TaylorModel1{TaylorN{Float64},Float64}[  0.7549628871907649 + 0.043003103896458415 x₁ - 0.0032465747475834863 x₁² + ( 0.4300310389645844 - 0.06493149495166935 x₁ + 0.003052819945102918 x₁²) ξ + ( - 0.32465747475834694 + 0.03052819945102888 x₁ + 0.0018836179755100605 x₁²) ξ² + ( 0.101760664836763 + 0.012557453170067179 x₁ - 0.00480650040545221 x₁²) ξ³ + ( 0.03139363292516797 - 0.024032502027261038 x₁ + 0.0027912209062894602 x₁²) ξ⁴ + ( - 0.048065004054522104 + 0.011164883625157804 x₁ + 0.0006981330083023078 x₁²) ξ⁵ + ( 0.018608139375263018 + 0.0023271100276743783 x₁ - 0.0020517845820511183 x₁²) ξ⁶ + ( 0.0033244428966776847 - 0.005862241663003196 x₁ + 0.001163377855574074 x₁²) ξ⁷ + ( - 0.007327802078754001 + 0.0029084446389351804 x₁ + 0.0001265493671184609 x₁²) ξ⁸ + [-3.86101e-14, 3.14375e-14]], [0.984396, 1.02463])
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;tspan(R)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;[0.984396, 1.02463]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;Z = polynomial.(set(R))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;1-element Array{Taylor1{TaylorN{Float64}},1}:
-   0.7549628871907649 + 0.043003103896458415 x₁ - 0.0032465747475834863 x₁² + 𝒪(‖x‖³) + ( 0.4300310389645844 - 0.06493149495166935 x₁ + 0.003052819945102918 x₁² + 𝒪(‖x‖³)) ξ + ( - 0.32465747475834694 + 0.03052819945102888 x₁ + 0.0018836179755100605 x₁² + 𝒪(‖x‖³)) ξ² + ( 0.101760664836763 + 0.012557453170067179 x₁ - 0.00480650040545221 x₁² + 𝒪(‖x‖³)) ξ³ + ( 0.03139363292516797 - 0.024032502027261038 x₁ + 0.0027912209062894602 x₁² + 𝒪(‖x‖³)) ξ⁴ + ( - 0.048065004054522104 + 0.011164883625157804 x₁ + 0.0006981330083023078 x₁² + 𝒪(‖x‖³)) ξ⁵ + ( 0.018608139375263018 + 0.0023271100276743783 x₁ - 0.0020517845820511183 x₁² + 𝒪(‖x‖³)) ξ⁶ + ( 0.0033244428966776847 - 0.005862241663003196 x₁ + 0.001163377855574074 x₁² + 𝒪(‖x‖³)) ξ⁷ + ( - 0.007327802078754001 + 0.0029084446389351804 x₁ + 0.0001265493671184609 x₁² + 𝒪(‖x‖³)) ξ⁸ + 𝒪(ξ⁹)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;using LazySets
-using LazySets: Interval
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;out = [Singleton([ti]) × Interval(evaluate(yi, -0.1 .. 0.1)) for (ti, yi) in zip(t, y)];
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;plot(out, marker=:x)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;output_40_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;plot!(sol, vars=(0, 1), alpha=.2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;output_41_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;plot(sol[1:30], vars=(0, 1), alpha=.2, c=:lightblue)
-plot!(out[1:100], marker=:x, c=:red)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;output_42_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ReachabilityAnalysis.jl</title>
-      <link>https://juliareach.github.io/software/reachabilityanalysis/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/software/reachabilityanalysis/</guid>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>LazySets.jl</title>
-      <link>https://juliareach.github.io/software/lazysets/</link>
-      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/software/lazysets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Best Result Award: Applied Verification for Continuous and Hybrid Systems 2020</title>
-      <link>https://juliareach.github.io/post/archcomp20_prize/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/post/archcomp20_prize/</guid>
-      <description>&lt;h2 id=&#34;prize-announcement&#34;&gt;Prize announcement&lt;/h2&gt;
-&lt;p&gt;The &lt;a href=&#34;https://cps-vo.org/node/69589&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ARCH 2020 Best Result Award&lt;/a&gt; goes to Luis Benet, Marcelo Forets, Daniel Freire, David P. Sanders, and Christian Schilling (in alphabetical order) for their verification tool JuliaReach. The award comes with a 500 Euro prize. Congratulations!&lt;/p&gt;
-&lt;h2 id=&#34;resolution&#34;&gt;Resolution&lt;/h2&gt;
-&lt;p&gt;We will give the prize to Sebastian (&lt;code&gt;@sebastianguadalupe&lt;/code&gt;), a Uruguayan
-undergraduate student who collabored with us on the Julia Seasons of Contributions 2020 edition.&lt;/p&gt;
-&lt;p&gt;Sebastian will work on zonotope-based methods applied to hybrid systems.
-He will be writing a tool for reachability analysis of neural-network controlled systems
-to leverage on the JuliaReach ecosystem and &lt;a href=&#34;https://github.com/sisl/NeuralVerification.jl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sisl/NeuralVerification.jl&lt;/a&gt;
-from the Stanford Intelligent Systems Laboratory library.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Reachability analysis of linear hybrid systems via block decomposition</title>
-      <link>https://juliareach.github.io/project/decohybrid/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/project/decohybrid/</guid>
-      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Reachability analysis aims at identifying states reachable by a system within a given time horizon. This task is known to be computationally expensive for linear hybrid systems. Reachability analysis works by iteratively applying continuous and discrete post operators to compute states reachable according to continuous and discrete dynamics, respectively. In this article, we enhance both of these operators and make sure that most of the involved computations are performed in low-dimensional state space. In particular, we improve the continuous-post operator by performing computations in high-dimensional state space only for time intervals relevant for the subsequent application of the discrete-post operator. Furthermore, the new discrete-post operator performs low-dimensional computations by leveraging the structure of the guard and assignment of a considered transition. We illustrate the potential of our approach on a number of challenging benchmarks.&lt;/p&gt;
-&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
-&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
+      <title>🎉 Easily create your own simple yet highly customizable blog</title>
+      <link>http://localhost:1313/post/get-started/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/get-started/</guid>
+      <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
+
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#get-started&#34;&gt;Get Started&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#-click-here-to-become-a-sponsor-and-help-support-hugo-bloxs-future-httpshugobloxcomsponsor&#34;&gt;&lt;a href=&#34;https://hugoblox.com/sponsor/&#34;&gt;❤️ Click here to become a sponsor and help support Hugo Blox&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ecosystem&#34;&gt;Ecosystem&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#inspiration&#34;&gt;Inspiration&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#features&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#themes&#34;&gt;Themes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;get-started&#34;&gt;Get Started&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Presentation slides (pdf) are available &lt;a href=&#34;https://github.com/JuliaReach/JuliaReach-website/blob/master/Talks/DecoHybrid_EMSOFT20/DecoHybrid_EMSOFT20.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;li&gt;👉 
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The recording for EMSOFT&#39;20 is available &lt;a href=&#34;https://www.youtube.com/watch?v=JVDRaHnSfEQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;li&gt;📚 
+&lt;/li&gt;
+&lt;li&gt;💬 
+ or 
+&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: 
+ 
+ #MadeWithHugoBlox&lt;/li&gt;
+&lt;li&gt;💡 
+&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Hugo Blox?&lt;/strong&gt; View the 
+ and 
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;@article{forets2020efficient,
-  title={Efficient reachability analysis of parametric linear hybrid systems with time-triggered transitions},
-  author={Forets, Marcelo and Freire, Daniel and Schilling, Christian},
-  journal={arXiv preprint arXiv:2006.12325},
-  year={2020}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Case Study: Reachability and Scalability in a Unified Combat-Command-and-Control Model</title>
-      <link>https://juliareach.github.io/project/ccc/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/project/ccc/</guid>
-      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Case Study: Reachability Analysis of a unified Combat-Command-and-Control Model.&lt;/strong&gt; Sergiy Bogomolov, Marcelo Forets, Kostiantyn Potomkin. &lt;em&gt;International Conference on Reachability Problems (2020). Lecture Notes in Computer Science, vol 12448.&lt;/em&gt; (2020) doi: &lt;a href=&#34;https://dx.doi.org/10.1007/978-3-030-61739-4_4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.1007/978-3-030-61739-4_4&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Presented in the &lt;a href=&#34;https://www.irif.fr/~rp2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;14th International Conference on Reachability Problems 2020&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Reachability analysis computes an envelope encompassing the reachable states of a
-hybrid automaton within a given time horizon. It is known to be a computationally
-intensive task. In this case study paper, we consider the application of reachability
-analysis on a mathematical model unifying two key warfighting functions: Combat,
-and Commandand-Control (C2). Reachability here has a meaning of whether, given a
-range of initial combat forces and a C2 network and various uncertainties,
-one side can survive combat with intact forces while the adversary
-is diminished to zero. These are questions which arise in military Operations
-Research (OR). This paper is the first to utilize the notions of a
-hybrid automaton and reachability analysis in the area of OR. We explore the
-applicability and scalability of Taylor-model based reachability techniques in this domain.
-Our experiments demonstrate the potential of reachability analysis in the context of OR.&lt;/p&gt;
-&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
-&lt;p&gt;We have explored the feasibility of applying some state-of-the-art reachability tools on
-a mathematical model unifying the dynamics of combat and C2.
-Operations Research is a domain where the advantages of using reachability analysis
-are yet to be discovered, and our contribution is a first step towards that direction.
-The unified combat model considered appears to be a challenging case
-study model, and although current verification techniques demonstrate capabilities to verify the systems up to the necessary time horizon of the model, there are still relevant configurations where reachability tools fail to verify the system.
-In particular, we investigated the method based on Taylor models in Flow*
-and JuliaReach for cases where the C2 takes place on networks of size N = 3, 5
-and 10. Given a certain uncertainty on initial conditions for Blue and Red combat forces we were able to derive reach-tubes for the subsequent time-evolution, bounding the behaviours of both forces and determining whether one side or
-the other is guaranteed success in the combat outcome.&lt;/p&gt;
-&lt;p&gt;In conclusion, the approach with adaptive time step (JuliaReach) has shown the best scalability. We
-emphasise that here we examined reachability within the constraint that the
-reach-tubes should cover all possible behaviors of the system’s evolution. However, we anticipate that significant scaling benefits may be achieved by relaxing this condition, thus testing that certain states may be reached while allowing for
-a degree of approximation.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;@inproceedings{bogomolov2020case,
-  title={Case Study: Reachability and Scalability in a Unified Combat-Command-and-Control Model},
-  author={Bogomolov, Sergiy and Forets, Marcelo and Potomkin, Kostiantyn},
-  booktitle={International Conference on Reachability Problems},
-  pages={52--66},
-  year={2020},
-  organization={Springer}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ARCH-COMP19 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics</title>
-      <link>https://juliareach.github.io/project/archcomp19_aff/</link>
-      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/project/archcomp19_aff/</guid>
-      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ARCH-COMP19 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics.&lt;/strong&gt; Matthias Althoff, Stanley Bak, Marcelo Forets, Goran Frehse, Niklas Kochdumper, Rajarshi Ray, Christian Schilling and Stefan Schupp (2019) ARCH19. 6th International Workshop on Applied Verification of Continuous and Hybrid Systems, vol 61, pages 14&amp;ndash;40 &lt;a href=&#34;https://easychair.org/publications/paper/1gbP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doi: 10.29007/bj1w&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
-&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics</title>
-      <link>https://juliareach.github.io/project/archcomp20_aff/</link>
-      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/project/archcomp20_aff/</guid>
-      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics.&lt;/strong&gt;
-Matthias Althoff, Stanley Bak, Zongnan Bao, Marcelo Forets, Daniel Freire, Goran Frehse, Niklas
-Kochdumper, Yangge Li, Sayan Mitra, Rajarshi Ray, Christian Schilling, Stefan Schupp, and Mark
-Wetzlinger (2020) ARCH20. 7th International Workshop on Applied Verification of Continuous and
-Hybrid Systems. 7th International Workshop on Applied Verification of Continuous and Hybrid Systems
-(ARCH20), vol 74, pages 16&amp;ndash;48. &lt;a href=&#34;https://easychair.org/publications/paper/DRpS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.29007/7dt2&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;We present the results of the ARCH 2020
-(&lt;a href=&#34;http://cps-vo.org/group/ARCH&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Workshop on Applied Verification for Continuous and Hybrid Systems&lt;/a&gt; friendly
-competition for formal verification of continuous and hybrid systems with linear continuous dynamics.
-In its fourth edition, eight tools have been applied to solve eight different benchmark problems in the
-category for linear continuous dynamics (in alphabetical order): CORA, C2E2, HyDRA, Hylaa, Hylaa-Continuous,
-JuliaReach, SpaceEx, and XSpeed. This report is a snapshot of the current landscape of tools and the types of
-benchmarks they are particularly suited for. Due to the diversity of problems, we are not ranking tools,
-yet the presented results provide one of the most complete assessments of tools for the safety verification
-of continuous and hybrid systems with linear continuous dynamics up to this date.&lt;/p&gt;
-&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
-&lt;p&gt;We consider the verification of hybrid systems (i.e., mixed discrete/continuous systems) with linear continuous dynamics
-$$
-\dot{x}(t) = Ax(t) + Bu(t),
-$$
-where $A \in \mathbb{R}^{n \times n}$, $x \in \mathbb{R}^n$, $B \in \mathbb{R}^{n \times m}$, and $u \in \mathbb{R}^m$. For all results reported by each participant, we have run an independent repeatability evaluation. To establish further trustworthiness of the results, the code with which the results have been obtained is publicly available &lt;a href=&#34;https://gitlab.com/goranf/ARCH-COMP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.
-The selection of the benchmarks has been conducted within the forum of the ARCH website
-(&lt;a href=&#34;http://cps-vo.org/group/ARCH&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;), which is visible for registered users and
-registration is open to anybody. All tools presented in this report use some form of
-reachability analysis. This, however, is not a constraint set by the organizers of the friendly competition. We hope to encourage further tool developers to showcase their results in future editions.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;@inproceedings{ARCH20:ARCH_COMP20_Category_Report_Continuous,
-  author    = {Matthias Althoff and Stanley Bak and Zongnan Bao and Marcelo Forets and Goran Frehse and Daniel Freire and Niklas Kochdumper and Yangge Li and Sayan Mitra and Rajarshi Ray and Christian Schilling and Stefan Schupp and Mark Wetzlinger},
-  title     = {ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics},
-  booktitle = {ARCH20. 7th International Workshop on Applied Verification of Continuous and Hybrid Systems (ARCH20)},
-  editor    = {Goran Frehse and Matthias Althoff},
-  series    = {EPiC Series in Computing},
-  volume    = {74},
-  pages     = {16--48},
-  year      = {2020},
-  publisher = {EasyChair},
-  bibsource = {EasyChair, https://easychair.org},
-  issn      = {2398-7340},
-  url       = {https://easychair.org/publications/paper/DRpS},
-  doi       = {10.29007/7dt2}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics</title>
-      <link>https://juliareach.github.io/project/archcomp20_nln/</link>
-      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/project/archcomp20_nln/</guid>
-      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics.&lt;/strong&gt; Luca Geretti, Julien Alexandre dit Sandretto, Matthias Althoff, Luis Benet, Alexandre Chapoutot, Xin Chen, Pieter Collins, Marcelo Forets, Daniel Freire, Fabian Immler, Niklas Kochdumper, David P. Sanders and Christian
-Schilling (2020) ARCH20. To appear in 7th International Workshop on Applied Verification of Continuous and Hybrid Systems. 7th International Workshop on Applied Verification of Continuous and Hybrid Systems (ARCH20), vol 74, pages 49&amp;ndash;75. &lt;a href=&#34;https://easychair.org/publications/paper/nrdD&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.29007/zkf6&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;We present the results of a friendly competition for formal verification of continuous and hybrid
-systems with nonlinear continuous dynamics. The friendly competition took place as part of the
-workshop Applied Verification for Continuous and Hybrid Systems (ARCH) in 2020. This year, 6 tools
-Ariadne, CORA, DynIbex, Flow*, Isabelle/HOL, and JuliaReach (in alphabetic order) participated.
-These tools are applied to solve reachability analysis problems on six benchmark problems, two of them
-featuring hybrid dynamics. We do not rank the tools based on the results, but show the current status
-and discover the potential advantages of different tools.&lt;/p&gt;
-&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
-&lt;p&gt;In this report, we summarize the results of the fourth ARCH friendly competition on the
-reachability analysis of continuous and hybrid systems with nonlinear dynamics. Given a system
-defined by a nonlinear Ordinary Differential Equation (ODE) $\dot{x} = f(x, t)$ along with an initial
-condition $x \in X_0$, we apply the participating tools to prove properties of the state reachable set
-in a bounded time horizon. The techniques for solving such a problem are usually very sensitive
-to not only the nonlinearity of the dynamics but also the size of the initial set. This is also one
-of the main reasons why most of the tools require quite a lot of computational parameters.
-In this report, 6 tools Ariadne, CORA, DynIbex, Flow*, Isabelle/HOL, and JuliaReach
-participated in solving problems defined on four continuous and two hybrid benchmarks. The
-continuous benchmarks are the Production-Destruction system, the Coupled Van der Pol os-
-cillator, the Laub-Loomis model, and a controlled Quadrotor model. The hybrid benchmarks
-model a Lotka-Volterra system with a Tangential Crossing, and a Space Rendezvous system.&lt;/p&gt;
-&lt;p&gt;For the 2020 edition of the competition we introduced two new benchmarks: the Production-
-Destruction system and the Lotka-Volterra system with tangential crossing. The former is a
-continuous system aimed at identifying the stability of integration schemes. The latter intro-
-duces nonlinear guards and in particular tangential crossings. In addition, we extended the van
-der Pol oscillator to two coupled oscillators, introduced nondeterministic crossing in the Space
-Rendezvous system and performed some input sensitivity analysis for the Quadrotor system.
-The Laub-Loomis benchmark was not modified, in order to perform a direct comparison with
-results from the previous year (since the participants are the same).&lt;/p&gt;
-&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;@inproceedings{ARCH20:ARCH_COMP20_Category_Report_Continuous,
-  author    = {Luca Geretti and Julien Alexandre Dit Sandretto and Matthias Althoff and Luis Benet and Alexandre Chapoutot and Xin Chen and Pieter Collins and Marcelo Forets and Daniel Freire and Fabian Immler and Niklas Kochdumper and David P. Sanders and Christian Schilling},
-  title     = {ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics},
-  booktitle = {ARCH20. 7th International Workshop on Applied Verification of Continuous and Hybrid Systems (ARCH20)},
-  editor    = {Goran Frehse and Matthias Althoff},
-  series    = {EPiC Series in Computing},
-  volume    = {74},
-  pages     = {49--75},
-  year      = {2020},
-  publisher = {EasyChair},
-  bibsource = {EasyChair, https://easychair.org},
-  issn      = {2398-7340},
-  url       = {https://easychair.org/publications/paper/nrdD},
-  doi       = {10.29007/zkf6}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Efficient reachability analysis of parametric linear hybrid systems with time-triggered transitions</title>
-      <link>https://juliareach.github.io/project/timetrigger/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/project/timetrigger/</guid>
-      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Efficient reachability analysis of parametric linear hybrid systems with time-triggered transitions.&lt;/strong&gt; Marcelo Forets, Daniel Freire, Christian Schilling, 2020. &lt;a href=&#34;https://arxiv.org/abs/2006.12325&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv: 2006.12325&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Presented in MEMOCODE&#39;20: &lt;a href=&#34;https://iitjammu.ac.in/conferences/memocode2020/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;18th ACM-IEEE International Conference on Formal Methods and Models for System Design
-&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Efficiently handling time-triggered and possibly nondeterministic switches for hybrid systems
-reachability is a challenging task. In this paper we focus on periodically controlled systems
-with fast-switching controller dynamics, which often require simulation time scales of the order
-of nanoseconds. Accurate set-based computations for such systems with relatively large time
-horizons are expensive due to the accumulation of errors in the discrete transitions.
-We present an approach based on conservative set-based enclosure of the dynamics that can handle systems
-with uncertain parameters and inputs. We demonstrate our algorithm on the plant model of an
-experimental electro-mechanical braking system with periodic controller.&lt;/p&gt;
-&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
-&lt;p&gt;Timed systems play an important role in modeling and analyzing cyber-physical systems.
-In this work we consider a class of hybrid-automaton models with continuous dynamics and time-triggered discrete events following a periodic clock.
-We propose a reachability framework to compute an overapproximation of the states reachable by such systems.&lt;/p&gt;
-&lt;p&gt;Conventional techniques tightly integrate the computation of the continuous behavior and the discrete events.
-Our approach allows to separate these concerns for the model class considered here, which simplifies
-the analysis drastically in practice and allows us to plug in any reachability algorithm from the literature.&lt;/p&gt;
-&lt;p&gt;As a case study, we consider a parametric model of a cyber-physical system consisting of an experimental
-electro-mechanical brake and a software-implemented periodic controller.
-The model was originally described in earlier work by Strathmann and Oehlerking where the
-authors developed a simplified version of a nonlinear system.
-The model is representative of real challenges in the automotive industry and allows the application of formal methods during development.
-Computing the reachable states for this simplified model takes twelve hours using the previous
-approach, and less than a minute with our approach.&lt;/p&gt;
-&lt;p&gt;This paper makes the following original contributions:&lt;/p&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-hugo-bloxs-future-httpshugobloxcomsponsor&#34;&gt;
+&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock 
+ awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;We present an efficient algorithm for deterministic periodic time-triggered hybrid systems with &lt;strong&gt;uncertain parameters&lt;/strong&gt; of the system dynamics or the initial conditions.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We extend the algorithm to the more difficult and new scenario of &lt;strong&gt;nondeterministic periodic&lt;/strong&gt; discrete switches.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We demonstrate the &lt;strong&gt;efficiency&lt;/strong&gt; of our algorithm on a model of an electro-mechanical brake system.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;
+:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Presentation slides (pdf) are available &lt;a href=&#34;https://github.com/JuliaReach/JuliaReach-website/tree/master/Talks/EMBrake_MEMOCODE20&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A short video for MEMOCODE&#39;20 is available &lt;a href=&#34;https://www.youtube.com/watch?v=n9ZNZmL1tlw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;@article{forets2020efficient,
-  title={Efficient reachability analysis of parametric linear hybrid systems with time-triggered transitions},
-  author={Forets, Marcelo and Freire, Daniel and Schilling, Christian},
-  journal={arXiv preprint arXiv:2006.12325},
-  year={2020}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>RangeEnclosures.jl</title>
-      <link>https://juliareach.github.io/software/rangeenclosures/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/software/rangeenclosures/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReachabilityModels.jl</title>
-      <link>https://juliareach.github.io/software/reachabilitymodels/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/software/reachabilitymodels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ARCH-COMP19 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics</title>
-      <link>https://juliareach.github.io/project/archcomp19_nln/</link>
-      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/project/archcomp19_nln/</guid>
-      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ARCH-COMP19 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics.&lt;/strong&gt;
-Fabian Immler, Matthias Althoff, Luis Benet,
-Alexandre Chapoutot, Xin Chen, Marcelo Forets,
-Luca Geretti, Niklas Kochdumper,
-David P. Sanders and Christian Schilling (2019)
-ARCH19. 6th International Workshop on Applied
-Verification of Continuous and Hybrid Systems,
-vol 61, pages 41&amp;ndash;61
-&lt;a href=&#34;https://easychair.org/publications/paper/1gbP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doi: 10.29007/bj1w&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
-&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JuliaReach: a Toolbox for Set-Based Reachability</title>
-      <link>https://juliareach.github.io/project/juliareachtoolbox/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/project/juliareachtoolbox/</guid>
-      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;JuliaReach: a Toolbox for Set-Based Reachability.&lt;/strong&gt; Sergiy Bogomolov, Marcelo Forets, Goran Frehse, Kostiantyn Potomkin, Christian Schilling. Published in Proceedings of &lt;a href=&#34;http://hscc2019.eecs.umich.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HSCC&#39;19&lt;/a&gt;: 22nd ACM International Conference on Hybrid Systems: Computation and Control (HSCC&#39;19), see &lt;a href=&#34;https://dl.acm.org/citation.cfm?id=3311804&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACM link here&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/1901.10736&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Get pdf from arXiv: 1901.10736&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;We present JuliaReach, a toolbox for set-based
-reachability analysis of dynamical systems.
-JuliaReach consists of two main packages: Reachability, containing implementations
-of reachability algorithms for continuous
-and hybrid systems, and LazySets, a
-standalone library that implements
-state-of-the-art algorithms for calculus
-with convex sets. The library offers both
-concrete and lazy set representations, where
-the latter stands for the ability to delay
-set computations until they are needed. The
-choice of the programming language Julia and
-the accompanying documentation of our
-toolbox allow researchers to easily translate
-set-based algorithms from mathematics to
-software in a platform-independent way,
-while achieving runtime performance that
-is comparable to statically compiled languages.
-Combining lazy operations in high dimensions
-and explicit computations in low dimensions,
-JuliaReach can be applied to solve complex,
-large-scale problems.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;@inproceedings{bogomolov2019juliareach,
-  title={JuliaReach: a toolbox for set-based reachability},
-  author={Bogomolov, Sergiy and Forets, Marcelo and Frehse, Goran and Potomkin, Kostiantyn and Schilling, Christian},
-  booktitle={Proceedings of the 22nd ACM International Conference on Hybrid Systems: Computation and Control},
-  pages={39--44},
-  year={2019}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Slides</title>
-      <link>https://juliareach.github.io/slides/example/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/slides/example/</guid>
-      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;
+ are building with this template.&lt;/p&gt;
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with no-code 
+ and 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in 
+, 
+, or 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code syntax highlighting and LaTeX math supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - 
+, 
+, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one-page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 35+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code block:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-&lt;p&gt;Block math:&lt;/p&gt;
-&lt;p&gt;$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-&lt;hr&gt;
 &lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
+&lt;p&gt;Hugo Blox and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.&lt;/p&gt;
+&lt;p&gt;
+ for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present 
+.&lt;/p&gt;
+&lt;p&gt;Released under the 
+ license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pandas</title>
+      <link>http://localhost:1313/project/pandas/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/pandas/</guid>
+      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PyTorch</title>
+      <link>http://localhost:1313/project/pytorch/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/pytorch/</guid>
+      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>scikit-learn</title>
+      <link>http://localhost:1313/project/scikit/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/scikit/</guid>
+      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>🧠 Sharpen your thinking with a second brain</title>
+      <link>http://localhost:1313/post/second-brain/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/second-brain/</guid>
+      <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
+&lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
+&lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
+&lt;p&gt;Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.&lt;/p&gt;
+&lt;h2 id=&#34;mindmaps&#34;&gt;Mindmaps&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
+&lt;p&gt;With this open format, can even edit your mindmaps in other popular tools such as Obsidian.&lt;/p&gt;
+&lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
+&lt;p&gt;Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code&gt;markmap&lt;/code&gt; code block, indenting each item to create as many sub-levels as you need:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap {height=&#34;200px&#34;}
+- Hugo Modules
+  - Hugo Blox
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
 
-&lt;section data-noprocess data-shortcode-slide
+&lt;pre&gt;- Hugo Modules
+  - Hugo Blox
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Anh here&amp;rsquo;s a more advanced mindmap with formatting, code blocks, and math:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap
+- Mindmaps
+  - Links
+    - [Hugo Blox Docs](https://docs.hugoblox.com/)
+    - [Discord Community](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
+  - Features
+    - Markdown formatting
+    - **inline** ~~text~~ *styles*
+    - multiline
+      text
+    - `inline code`
+    -
+      ```js
+      console.log(&#39;hello&#39;);
+      console.log(&#39;code block&#39;);
+      ```
+    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
+
+&lt;pre&gt;- Mindmaps
+  - Links
+    - [Hugo Blox Docs](https://docs.hugoblox.com/)
+    - [Discord Community](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
+  - Features
+    - Markdown formatting
+    - **inline** ~~text~~ *styles*
+    - multiline
+      text
+    - `inline code`
+    -
+      ```js
+      console.log(&#39;hello&#39;);
+      console.log(&#39;code block&#39;);
+      ```
+    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;highlighting&#34;&gt;Highlighting&lt;/h2&gt;
+&lt;p&gt;&lt;mark&gt;Highlight&lt;/mark&gt; important text with &lt;code&gt;mark&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Highlighted text&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;callouts&#34;&gt;Callouts&lt;/h2&gt;
+&lt;p&gt;Use 
+ (aka &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;) to draw attention to notes, tips, and warnings.&lt;/p&gt;
+&lt;p&gt;By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% callout note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /callout %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Or use the &lt;code&gt;warning&lt;/code&gt; callout type so your readers don&amp;rsquo;t miss critical details:&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-yellow-100 dark:bg-yellow-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-red-400&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0zM12 15.75h.007v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>📈 Communicate your results effectively with the best data visualizations</title>
+      <link>http://localhost:1313/post/data-visualization/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/data-visualization/</guid>
+      <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
+&lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
+&lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports the popular 
+ format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
+&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
+&lt;p&gt;Demo:&lt;/p&gt;
+
+
+
+
+&lt;div id=&#34;chart-982631574&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  async function fetchChartJSON() {
+    console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
+    const response = await fetch(&#39;.\/line-chart.json&#39;);
+    return await response.json();
+  }
+
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        console.debug(&#39;Plotly not loaded yet...&#39;)
+        return;
+      }
+      clearInterval( a );
+
+      fetchChartJSON().then(chart =&gt; {
+        console.debug(&#39;Plotting chart...&#39;)
+        window.Plotly.newPlot(&#39;chart-982631574&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
+
+&lt;p&gt;You might also find the 
+ useful.&lt;/p&gt;
+&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;graph TD
+A[Hard] --&gt;|Text| B(Round)
+B --&gt; C{Decision}
+C --&gt;|One| D[Result 1]
+C --&gt;|Two| E[Result 2]
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram
+Alice-&gt;&gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&gt;&gt;Alice: Great!
+John-&gt;&gt;Bob: How about you?
+Bob--&gt;&gt;John: Jolly good!
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &amp;lt;--&amp;gt; C2: Cool label
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &lt;--&gt; C2: Cool label
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;stateDiagram
+[*] --&gt; Still
+Still --&gt; [*]
+Still --&gt; Moving
+Moving --&gt; Still
+Moving --&gt; Crash
+Crash --&gt; [*]
+&lt;/div&gt;
+&lt;h2 id=&#34;data-frames&#34;&gt;Data Frames&lt;/h2&gt;
+&lt;p&gt;Save your spreadsheet as a CSV file in your page&amp;rsquo;s folder and then render it by adding the &lt;em&gt;Table&lt;/em&gt; shortcode to your page:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;table&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;results.csv&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;caption&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Table 1: My results&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table class=&#34;table-auto w-full&#34;&gt;
   
+    
+    
+    &lt;thead&gt;
+      &lt;tr&gt;  &lt;th class=&#34;border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left&#34;&gt;customer_id&lt;/th&gt;  &lt;th class=&#34;border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left&#34;&gt;score&lt;/th&gt;  &lt;/tr&gt;
+    &lt;/thead&gt;
+  
+  &lt;tbody&gt;
+  
+    &lt;tr&gt;
       
-      data-background-image=&#34;/media/boards.jpg&#34;
-  &gt;
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;1&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;0&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;2&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;text&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;0.5&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;3&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;1&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+  &lt;/tbody&gt;
+  
+    &lt;caption class=&#34;table-caption&#34;&gt;Table 1: My results&lt;/caption&gt;
+  
+&lt;/table&gt;
 
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
 </description>
     </item>
     
     <item>
-      <title>NeuralNetworkAnalysis.jl</title>
-      <link>https://juliareach.github.io/software/neuralnetworkanalysis/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/software/neuralnetworkanalysis/</guid>
-      <description></description>
-    </item>
+      <title>👩🏼‍🏫 Teach academic courses</title>
+      <link>http://localhost:1313/post/teach-courses/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/teach-courses/</guid>
+      <description>&lt;p&gt;
+ is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+&lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube D2vj0WcvH5c &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+
     
-    <item>
-      <title>ARCH-COMP18 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics</title>
-      <link>https://juliareach.github.io/project/archcomp18_aff/</link>
-      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/project/archcomp18_aff/</guid>
-      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ARCH-COMP18 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics.&lt;/strong&gt;
-Matthias Althoff, Stanley Bak, Xin Chen, Chuchu Fan, Marcelo Forets, Goran Frehse,
-Niklas Kochdumper, Yangge Li, Sayan Mitra, Rajarshi Ray, Christian Schilling and Stefan Schupp (2018) ARCH18.
-5th International Workshop on Applied Verification of Continuous and Hybrid Systems, 54: 23–52.
-doi: &lt;a href=&#34;https://dx.doi.org/10.29007/73mb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.29007/73mb&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;This report presents the results of a friendly competition for formal verification of continuous
-and hybrid systems with linear continuous dynamics. The friendly competition took place as part
-of the workshop Applied Verification for Continuous and Hybrid Systems (ARCH) in 2018.
-In its second edition, 9 tools have been applied to solve six different benchmark problems
-in the category for linear continuous dynamics (in alphabetical order): CORA, CORA/SX, C2E2,
-Flow*, HyDRA, Hylaa, Hylaa-Continuous, JuliaReach, SpaceEx, and XSpeed.
-This report is a snapshot of the current landscape of tools and the types of benchmarks
-they are particularly suited for. Due to the diversity of problems, we are not ranking tools,
-yet the presented results probably provide the most complete assessment of tools for
-the safety verification of continuous and hybrid systems with linear continuous dynamics up to this date.&lt;/p&gt;
-&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
-&lt;p&gt;This report summarizes results obtained in the 2018 friendly competition of the ARCH
-workshop for verifying hybrid systems with linear continuous dynamics
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Bilibili&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; bilibili BV1WV4y1r7DF &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1WV4y1r7DF&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Video file&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Videos may be added to a page by either placing them in your &lt;code&gt;assets/media/&lt;/code&gt; media library or in your 
+, and then embedding them with the &lt;em&gt;video&lt;/em&gt; shortcode:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; video src=&amp;quot;my_video.mp4&amp;quot; controls=&amp;quot;yes&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;podcast&#34;&gt;Podcast&lt;/h2&gt;
+&lt;p&gt;You can add a podcast or music to a page by placing the MP3 file in the page&amp;rsquo;s folder or the media library folder and then embedding the audio on your page with the &lt;em&gt;audio&lt;/em&gt; shortcode:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; audio src=&amp;quot;ambient-piano.mp3&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Try it out:&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+&lt;audio controls &gt;
+  &lt;source src=&#34;http://localhost:1313/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+
+&lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
+&lt;p&gt;Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code&gt;spoiler&lt;/code&gt; shortcode:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;👉 Click to view the solution&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary class=&#34;cursor-pointer&#34;&gt;👉 Click to view the solution&lt;/summary&gt;
+  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
+    You found me 🎉
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. Enable math by setting the &lt;code&gt;math: true&lt;/code&gt; option in your page&amp;rsquo;s front matter, or enable math for your entire site by toggling math in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;features&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the math linebreak (&lt;code&gt;\\&lt;/code&gt;):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
 $$
-\dot{x}(t) = Ax(t) + Bu(t),
+f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
+1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
+$$&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+&lt;p&gt;Hugo Blox Builder utilises Hugo&amp;rsquo;s Markdown extension for highlighting code syntax. The code theme can be selected in the &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;inline-images&#34;&gt;Inline Images&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Python&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;
+  &lt;span class=&#34;inline-block  pr-1&#34;&gt;
+    &lt;svg style=&#34;height: 1em; transform: translateY(0.1em);&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; height=&#34;1em&#34; viewBox=&#34;0 0 448 512&#34; fill=&#34;currentColor&#34;&gt;&lt;path d=&#34;M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt; Python&lt;/p&gt;
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>http://localhost:1313/experience/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learn JavaScript</title>
+      <link>http://localhost:1313/teaching/js/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/js/</guid>
+      <description>&lt;p&gt;
+ is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+&lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Bilibili&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; bilibili id=&amp;quot;BV1WV4y1r7DF&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Video file&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Videos may be added to a page by either placing them in your &lt;code&gt;assets/media/&lt;/code&gt; media library or in your 
+, and then embedding them with the &lt;em&gt;video&lt;/em&gt; shortcode:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; video src=&amp;quot;my_video.mp4&amp;quot; controls=&amp;quot;yes&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;podcast&#34;&gt;Podcast&lt;/h2&gt;
+&lt;p&gt;You can add a podcast or music to a page by placing the MP3 file in the page&amp;rsquo;s folder or the media library folder and then embedding the audio on your page with the &lt;em&gt;audio&lt;/em&gt; shortcode:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; audio src=&amp;quot;ambient-piano.mp3&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Try it out:&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+&lt;audio controls &gt;
+  &lt;source src=&#34;http://localhost:1313/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+
+&lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
+&lt;p&gt;Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code&gt;spoiler&lt;/code&gt; shortcode:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;👉 Click to view the solution&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary class=&#34;cursor-pointer&#34;&gt;👉 Click to view the solution&lt;/summary&gt;
+  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
+    You found me 🎉
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;We wrap the LaTeX math in the Hugo Blox &lt;em&gt;math&lt;/em&gt; shortcode to prevent Hugo rendering our math as Markdown.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+
+
+&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$
+.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the math linebreak (&lt;code&gt;\\&lt;/code&gt;):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
 $$
-where $A \in \mathbb{R}^{n \times n}$, $x \in \mathbb{R}^n$, $B \in \mathbb{R}^{n \times m}$, and $u \in \mathbb{R}^m$.
-Participating tools are summarized in
-Sec. 2. The results of our selected benchmark problems are shown in Sec. 3 and are obtained
-on the tool developers’ own machines. Thus, one has to factor in the computational power of
-the processors used, summarized in Appendix A, as well as the efficiency of the programming
-language of the tools.
-The goal of the friendly competition is not to rank the results, but rather to present the
-landscape of existing solutions in a breadth that is not possible with scientific publications in
-classical venues. Such publications would typically require the presentation of novel techniques,
-while this report showcases the current state-of-the-art tools. For all results reported by each
-participant, we have run an independent repeatability evaluation.
-The selection of the benchmarks has been conducted within the forum of the ARCH website
-(&lt;a href=&#34;cps-vo.org/group/ARCH&#34;&gt;cps-vo.org/group/ARCH&lt;/a&gt;), which is visible for registered users
-and registration is open for anybody. All tools presented in this report use some form
-of reachability analysis. This, however, is not a constraint set by the organizers of
-the friendly competition. We hope to encourage further tool developers to showcase
-their results in future editions.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;@inproceedings{ARCH18:ARCH_COMP18_Category_Report_Continuous,
-  author    = {Matthias Althoff and Stanley Bak and Xin Chen and Chuchu Fan and Marcelo Forets and Goran Frehse and Niklas Kochdumper and Yangge Li and Sayan Mitra and Rajarshi Ray and Christian Schilling and Stefan Schupp},
-  title     = {ARCH-COMP18 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics},
-  booktitle = {ARCH18. 5th International Workshop on Applied Verification of Continuous and Hybrid Systems},
-  editor    = {Goran Frehse},
-  series    = {EPiC Series in Computing},
-  volume    = {54},
-  pages     = {23--52},
-  year      = {2018},
-  publisher = {EasyChair},
-  bibsource = {EasyChair, https://easychair.org},
-  issn      = {2398-7340},
-  url       = {https://easychair.org/publications/paper/4cGr},
-  doi       = {10.29007/73mb}}
+f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
+1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
+$$
+
+
+
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+&lt;p&gt;Hugo Blox Builder utilises Hugo&amp;rsquo;s Markdown extension for highlighting code syntax. The code theme can be selected in the &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;inline-images&#34;&gt;Inline Images&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Python&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;
+  &lt;span class=&#34;inline-block  pr-1&#34;&gt;
+    &lt;svg style=&#34;height: 1em; transform: translateY(0.1em);&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; height=&#34;1em&#34; viewBox=&#34;0 0 448 512&#34; fill=&#34;currentColor&#34;&gt;&lt;path d=&#34;M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt; Python&lt;/p&gt;
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
 </description>
     </item>
     
     <item>
-      <title>Reach Set Approximation through Decomposition with Low-dimensional Sets and High-dimensional Matrices</title>
-      <link>https://juliareach.github.io/project/bffpsv18/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/project/bffpsv18/</guid>
-      <description>&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Reach Set Approximation through Decomposition with Low-dimensional Sets and High-dimensional Matrices.&lt;/strong&gt; Sergiy Bogomolov, Marcelo Forets, Goran Frehse, Frédéric Viry, Andreas Podelski and Christian Schilling (2018) &lt;a href=&#34;https://www.hscc2018.deib.polimi.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HSCC&#39;18&lt;/a&gt; Proceedings of the 21st International Conference on Hybrid Systems: Computation and Control: 41–50. See the &lt;a href=&#34;http://dx.doi.org/10.1145/3178126.3178128&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACM Digital Library link&lt;/a&gt;, or the &lt;a href=&#34;https://arxiv.org/abs/1801.09526&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv: 1801.09526&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Approximating the set of reachable states of a dynamical system is an
-algorithmic yet mathematically rigorous way to reason about its safety.
-Although progress has been made in the development of efficient algorithms
-for affine dynamical systems, available algorithms still lack scalability
-to ensure their wide adoption in the industrial setting. While modern
-linear algebra packages are efficient for matrices with tens of thousands
-of dimensions, set-based image computations are limited to a few hundred.
-We propose to decompose reach set computations such that set operations
-are performed in low dimensions, while matrix operations like exponentiation
-are carried out in the full dimension. Our method is applicable both in dense
-and discrete-time settings. For a set of standard benchmarks, it shows a
-speed-up of up to two orders of magnitude compared to the respective
-state-of-the-art tools, with only modest losses in accuracy.
-For the dense-time case, we show an experiment with more than 10,000
-variables, roughly two orders of magnitude higher than possible with previous
-approaches.&lt;/p&gt;
-&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
-&lt;p&gt;We present a new method to solve the reachability
-problem for affine dynamical systems with nondeterministic inputs
-and experimentally show that it is highly scalable under modest
-loss of accuracy.&lt;/p&gt;
-&lt;p&gt;More precisely:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;We provide a new decomposition approach to solve the set-based recurrence:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$$
-\mathcal{X}(k+1) = \Phi \mathcal{X}(k) \oplus \mathcal{V}(k),\qquad k = 0, 1,\ldots, N
-$$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;We analyze the approximation error.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We address both the dense time and the discrete time reach-
-ability problem for general linear time-invariant systems.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We implement our approach efficiently and demonstrate its
-scalability on real engineering benchmarks. The tool, source
-code, and benchmark scripts are publicly available.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;how-to-cite&#34;&gt;How to cite&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;@inproceedings{bogomolov2018reach,
-  title={Reach set approximation through decomposition with low-dimensional sets and high-dimensional matrices},
-  author={Bogomolov, Sergiy and Forets, Marcelo and Frehse, Goran and Viry, Fr{\&#39;e}d{\&#39;e}ric and Podelski, Andreas and Schilling, Christian},
-  booktitle={Proceedings of the 21st International Conference on Hybrid Systems: Computation and Control (part of CPS Week)},
-  pages={41--50},
-  year={2018}
-}
+      <title>Learn Python</title>
+      <link>http://localhost:1313/teaching/python/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/python/</guid>
+      <description>&lt;p&gt;
+ is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+&lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Bilibili&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; bilibili id=&amp;quot;BV1WV4y1r7DF&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Video file&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Videos may be added to a page by either placing them in your &lt;code&gt;assets/media/&lt;/code&gt; media library or in your 
+, and then embedding them with the &lt;em&gt;video&lt;/em&gt; shortcode:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; video src=&amp;quot;my_video.mp4&amp;quot; controls=&amp;quot;yes&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;podcast&#34;&gt;Podcast&lt;/h2&gt;
+&lt;p&gt;You can add a podcast or music to a page by placing the MP3 file in the page&amp;rsquo;s folder or the media library folder and then embedding the audio on your page with the &lt;em&gt;audio&lt;/em&gt; shortcode:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; audio src=&amp;quot;ambient-piano.mp3&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Try it out:&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+&lt;audio controls &gt;
+  &lt;source src=&#34;http://localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+
+&lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
+&lt;p&gt;Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code&gt;spoiler&lt;/code&gt; shortcode:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;👉 Click to view the solution&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary class=&#34;cursor-pointer&#34;&gt;👉 Click to view the solution&lt;/summary&gt;
+  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
+    You found me 🎉
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;We wrap the LaTeX math in the Hugo Blox &lt;em&gt;math&lt;/em&gt; shortcode to prevent Hugo rendering our math as Markdown.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+
+
+&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$
+.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the math linebreak (&lt;code&gt;\\&lt;/code&gt;):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+$$
+f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
+1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
+$$
+
+
+
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+&lt;p&gt;Hugo Blox Builder utilises Hugo&amp;rsquo;s Markdown extension for highlighting code syntax. The code theme can be selected in the &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;inline-images&#34;&gt;Inline Images&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Python&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;
+  &lt;span class=&#34;inline-block  pr-1&#34;&gt;
+    &lt;svg style=&#34;height: 1em; transform: translateY(0.1em);&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; height=&#34;1em&#34; viewBox=&#34;0 0 448 512&#34; fill=&#34;currentColor&#34;&gt;&lt;path d=&#34;M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt; Python&lt;/p&gt;
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
 </description>
     </item>
     
     <item>
-      <title>MathematicalSystems.jl</title>
-      <link>https://juliareach.github.io/software/mathematicalsystems/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/software/mathematicalsystems/</guid>
-      <description></description>
+      <title>✅ Manage your projects</title>
+      <link>http://localhost:1313/post/project-management/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/project-management/</guid>
+      <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
+&lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
+&lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
+&lt;p&gt;Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code&gt;markmap&lt;/code&gt; code block, indenting each item to create as many sub-levels as you need:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap {height=&#34;200px&#34;}
+- Hugo Modules
+  - Hugo Blox
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
+
+&lt;pre&gt;- Hugo Modules
+  - Hugo Blox
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+&lt;/div&gt;
+&lt;h2 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h2&gt;
+&lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
     </item>
     
     <item>
-      <title>BernsteinExpansions.jl</title>
-      <link>https://juliareach.github.io/software/bernsteinexpansions/</link>
-      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/software/bernsteinexpansions/</guid>
-      <description></description>
+      <title>An example preprint / working paper</title>
+      <link>http://localhost:1313/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/preprint/</guid>
+      <description>&lt;p&gt;This work is driven by the results in my 
+ on LLMs.&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including 
+.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>MathematicalPredicates.jl</title>
-      <link>https://juliareach.github.io/software/mathematicalpredicates/</link>
-      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://juliareach.github.io/software/mathematicalpredicates/</guid>
-      <description></description>
+      <title>An example journal article</title>
+      <link>http://localhost:1313/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>http://localhost:1313/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including 
+.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
